@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: pink;
+    color: #000;
+
+    margin-top: 20vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+
+    height: 50%;
+    width: 100%;
+
+}
+
+.contentOne {
+    background-color: #ececec;
+    height: 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#container {
+    display: flex;
+    background-color: #fff;
+
+
+    height: 60vh;
+    width: 50vw;
+
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    box-shadow: 5px 4px 10px;
+}
+
+.textbox {
+    background-color: #ececec;
+    height: 5vh;
+    width: 20vw;
+
+    border: none;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+    margin: 1px;
+    padding: 10px;
+}
+
+.datanasc {
+    margin: 1px;
+}
+
+#enviarDados {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    height: 30px;
+    width: 200px;
+
+    cursor: pointer;
+
+}
