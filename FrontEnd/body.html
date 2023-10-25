@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+    <title>site</title>
+</head>
+<body>
+    <!-- HTML -->
+    <div id="container">
+        <!-- Container Geral -->
+        <div class="content contentOne">
+            <h1>Bem Vindo!!</h1>
+            <p>Site feito para adicionar cadastros ligado ao mysql!!</p>
+
+        </div>
+        <form action="/cad" class="content contentTwo" method="post">
+            <input type="text" name="nameUser" id="nameUser" class="textbox boxOne" placeholder="Nome">
+            <input type="text" name="subName" id="subName" class="textbox boxTwo" placeholder="Sobrenome">
+            <input type="email" name="mail" id="mail" class="textbox boxMail" placeholder="E-mail">
+            <label for="nasc">Data de nascimento:
+                <input type="date" name="nasc" id="nasc" class="datanasc">
+            </label>
+            <input type="submit" value="Submit" id="enviarDados">
+        </form>
+    </div>
+    <script>
+        var tipo = document.getElementById("nasc")
+
+        window.alert(typeof tipo)
+    </script>
+</body>
+</html>
